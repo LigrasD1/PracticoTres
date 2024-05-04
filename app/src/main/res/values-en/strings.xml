@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ITES Homework</string>
+    <string name="txtiniciarmain">Login</string>
+    <string name="TxtNombreMain">Name</string>
+    <string name="EdtTContrasenaMain">Password</string>
+    <string name="InSesionMain">Login</string>
+    <string name="InfoPrincipal">Twitch is an American platform belonging to the company Amazon, Inc., which allows live broadcasts. This platform\'s main function is to broadcast live video games, a field in which it has YouTube as a competitor.</string>
+    <string name="BtnAcerca">About</string>
+    <string name="BtnSalirPrincipal">Exit</string>
+    <string name="TxtCorreo">Email: Example@gmail.com</string>
+    <string name="TxtTelefono">Phone: 2954 777555</string>
+    <string name="BtnVolver">Back</string>
+    <string name="Nombre">David Agustin Paez</string>
+    <string name="DescIMG">Student</string>
+    <string name="DescimgTwitch">Twitch</string>
+    <string name="DescImgLogoTwitch">Twitch logo</string>
+</resources>

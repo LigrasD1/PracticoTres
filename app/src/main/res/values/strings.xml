@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticoTres</string>
+    <string name="txtiniciarmain">Iniciar</string>
+    <string name="TxtNombreMain">Nombre</string>
+    <string name="EdtTContrasenaMain">Contraseña</string>
+    <string name="InSesionMain">Iniciar sesion</string>
+    <string name="InfoPrincipal">Twitch es una plataforma estadounidense perteneciente a la empresa Amazon, Inc., que permite realizar transmisiones en vivo. Esta plataforma tiene como función principal la retransmisión de videojuegos en directo, un campo en el que tiene como competidor a YouTube.</string>
+    <string name="BtnAcerca">Acerca</string>
+    <string name="BtnSalirPrincipal">Salir</string>
+    <string name="TxtCorreo">Correo: Example@gmail.com</string>
+    <string name="TxtTelefono">Telefono: 2954 777555</string>
+    <string name="BtnVolver">Volver</string>
+    <string name="Nombre">David Agustin Paez</string>
+    <string name="DescIMG">Alumno</string>
+    <string name="DescimgTwitch">Twitch</string>
+    <string name="DescImgLogoTwitch">Logo de twitch</string>
+</resources>

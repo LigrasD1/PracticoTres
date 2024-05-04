@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".PrincipalActivity">
+
+    <Button
+        android:id="@+id/BtnAcerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9146FF"
+        android:text="@string/BtnAcerca"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TwitchLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/DescImgLogoTwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logotwitch" />
+
+    <TextView
+        android:id="@+id/TxtInfoPrincipal"
+        android:layout_width="361dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/InfoPrincipal"
+        android:textAlignment="center"
+        android:textColor="#F0F0FF"
+        android:textSize="25sp"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgTwitch" />
+
+    <ImageView
+        android:id="@+id/ImgTwitch"
+        android:layout_width="253dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/DescimgTwitch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnAcerca"
+        app:srcCompat="@drawable/imgtwitch" />
+
+    <Button
+        android:id="@+id/BtnSalirPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#9146FF"
+        android:text="@string/BtnSalirPrincipal"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtInfoPrincipal" />
+</androidx.constraintlayout.widget.ConstraintLayout>
